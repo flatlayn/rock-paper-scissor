@@ -51,7 +51,7 @@ function playRound(hc, cc) {
 
 
 function playGame() {
-    for (i = 0; i < 5; i++) {
+    for (let i = 0; i < 5; i++) {
         let humanChoice = getHumanChoice();
         let compChoice = getComputerChoice();
         console.log(`Human chooses ${humanChoice}. Computer chooses ${compChoice}`)
